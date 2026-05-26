@@ -58,7 +58,4 @@ def summarize():
     except Exception as e:
         return jsonify({"response": f"Error communicating with Groq: {str(e)}"}), 500
 
-if __name__ == "__main__":
-    app.run(debug=True)
-
 
