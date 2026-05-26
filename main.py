@@ -3,6 +3,9 @@ import os
 from dotenv import load_dotenv
 from groq import Groq
 
+import streamlit as st
+st.title("AI Assistant")
+
 app = Flask(__name__)
 
 load_dotenv()
